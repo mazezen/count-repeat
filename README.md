@@ -1,6 +1,12 @@
 # count-repeat
 ## count repeat item in slice. not contain self item.
 
+## Install
+```shell
+go get github.com/mazezen/count-repeat
+```
+
+## Example
 ```go
 fmt.Println(Count([]interface{}{"10", "20", "600", "20", "30"}))
 fmt.Println(Count([]interface{}{"20", "20", "600", "20", "30"}))
